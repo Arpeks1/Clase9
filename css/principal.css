@@ -1,0 +1,121 @@
+#img{
+    border-radius: 90px;
+    padding-right: 5px;
+    filter: drop-shadow(2px 4px 3px rgba(0, 0, 0, 0.7));
+}
+#prin{
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
+.container-fluid{
+    background-color: #E7CCCC;
+    display: flex;
+    flex-direction: column;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link{
+    font-size: 30px;
+}
+#tutilo{
+    font-size: 70px;
+    font-style: italic;
+}
+.card{
+    border: solid #816046 4px;
+    border-radius: 20px;
+    transition: all 600ms;
+    background-color: #F5EFE6;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.precio{
+    font-size: 20px;
+    color: #5CB338;
+}
+.btn{
+    background-color: #16610E;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card-title{
+    font-size: 30px;
+}
+.card-text{
+    font-size: 20px;
+}
+.card-img-top{
+    margin-left: 30px;
+    border-radius: 40px;
+    height: 225px;
+    width: 225px;
+    padding-top: 10px;
+    filter: drop-shadow(2px 4px 3px rgba(0, 0, 0, 0.7));
+}
+.logo{
+    width: 60px;
+    height: auto;
+    border-radius: 60%;
+}
+.nav-item{
+    text-decoration: solid;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1e5d1;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+button{
+    margin-top: 40px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    color: #F96666;
+    font-weight: 900;
+    background-color: #A6AEBF;
+    transition: all 600ms;
+}
+button:hover{
+    transform: scale(1.5);
+}
+footer{
+    background-color: #E7CCCC;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+a {
+    color: inherit;  
+    text-decoration: none;
+}
+a:hover {
+    color: #002fff;
+    text-decoration: underline;
+}
+.fa-brands{
+    margin-left: 40px;
+}
+@media (max-width: 768px) {
+#tutilo{
+    font-size: 40px;
+    font-style: italic;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+.collapse:not(.show){
+    display: flex;
+    flex-direction: row 
+}
+}
